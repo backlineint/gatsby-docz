@@ -1,7 +1,7 @@
 import * as colors from './src/utils/colors'
 
 export default {
-  title: 'Holly Hunt Design System',
+  title: 'HH Design System',
   base: '/docs',
   ignore: ['**/blog/**', 'readme.md'],
   menu: ['Getting Started', 'Components'],
