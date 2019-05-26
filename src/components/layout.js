@@ -27,18 +27,18 @@ class Layout extends React.Component {
       <ThemeProvider theme={theme}>
         <React.Fragment>
           <Header py={5} mb={5}>
-            <Heading fontSize={[6, 7]}>Coolest Library</Heading>
-            <Heading fontWeight={400}>Some cool subtitle here!</Heading>
+            <Heading fontSize={[6, 7]}>HH Design System</Heading>
+            <Heading fontWeight={400}>HH shared styles and general design system documentation</Heading>
             <Box display="flex" mt={4}>
               <Button variant="primary" onClick={() => navigate('/')}>
-                Home
+                Changelog
               </Button>
               <Button
                 ml={2}
                 variant="primary"
                 onClick={() => navigate('/docs')}
               >
-                Getting Started
+                Docs
               </Button>
             </Box>
           </Header>

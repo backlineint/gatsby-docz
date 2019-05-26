@@ -5,6 +5,31 @@ route: /
 
 # Getting Started
 
-## Hello world
+## Overview
+The overall hollyhunt.com ecosystem is comprised of the following:
+- [This shared design system](https://bitbucket.org/hs2studio/holly-hunt-design-system)
+- [Drupal website implementation](https://bitbucket.org/hs2studio/holly-hunt-d8)
+- [React app implementation](https://bitbucket.org/hs2studio/holly-hunt-portal)
 
-Type here the most beautyiful getting started that you ever saw!
+It is recommended that you review the readme at the root of all projects to familiarize with the dependencies and build process for each. This design system will provide all styles shared between the Drupal and React implementations and will be imported into those projects as a devDependency in their respective `package.json`.
+
+This design system will also serve as the overall design system documentation, as such expect it to evolve along with the project.
+
+## File Structure
+
+```
+holly-hunt-design-system
+├── content/            ← The markdown content that powers this documentation
+│   ├── components          ← Placeholder to document shared components in /ds-components/, if possible
+│   ├── guidelines          ← Overall design system guidelines
+│   ├── styles              ← Documentation of shared styles in /ds-styles/
+├── ds-components/      ← Placeholder for shared components, if possible
+├── ds-styles/          ← Shared styling for import into the Dupal and React implementations
+├── src/                ← Components and styles specific to this documentation
+```
+
+## Creating pages and using components
+Provide information on how to properly link up design system files in order to create a basic "hello world" template. From there, describe the process of incorporating design system's components into the project. Again, this will undoubtedly vary based on the setup and technologies your organization utilizes.
+
+## Code conventions
+Provide a link to learn more about [code conventions](/guidelines/code.html).

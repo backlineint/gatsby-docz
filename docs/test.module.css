@@ -1,0 +1,7 @@
+.reset * {
+  all: initial;
+}
+
+.override {
+  font-size: 100px;
+}

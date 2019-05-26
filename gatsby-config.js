@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Coolest Library`,
-    author: `Pedro Nauck`,
+    title: `Holly Hunt Design System`,
+    author: `Bounteous`,
     description: `Gatsby starter with Docz and a blog for your documentation`,
   },
   __experimentalThemes: [
